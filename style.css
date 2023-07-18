@@ -1,0 +1,92 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Tahoma;
+}
+
+header {
+    background-color: rgb(36, 36, 36);
+    display: flex;
+    justify-content: space-between;
+}
+
+.heading {
+    color: white;
+    margin-left: 20px;
+    margin-top: 10px;
+}
+
+nav {
+    color: white;
+    margin-right: 20px;
+    margin-top: 10px;
+}
+
+.right_side_nav {
+    list-style: none;
+    display: flex;
+    gap: 10px
+}
+
+#menu {
+    background-color: white;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.welcome_banner {
+    background-color: rgb(43, 95, 207);
+    color: white;
+    padding: 40px;
+}
+
+.welcome_h2 {
+    font-size: 40px;
+    margin-bottom: 10px;
+}
+
+.welcome_banner__text {
+    font-weight: lighter;
+    line-height: 30px;
+}
+
+.welcome_bold {
+    font-weight: bold;
+}
+
+.topic_title {
+    margin-top: 30px;
+    margin-left: 132px;
+    margin-bottom: 15px;
+
+}
+
+.topics {
+    display: flex;
+    justify-content: center;
+}
+.topics_list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: center;
+}
+
+.topic_card {
+    display: flex;
+    flex-wrap: wrap;
+    width: calc((100% - 384px) / 3);
+    height: 150px;
+    border-top: solid rgb(220, 220, 220) 2px;
+}
+
+.topic_card__description {
+    justify-content: flex-start;
+    overflow:scroll;
+    margin-left: 15px;
+}
+
+h5 {
+    margin-top: 10px;
+    margin-left: 15px;
+}
